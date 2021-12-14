@@ -7,7 +7,7 @@ This tutorial shows how to use Visual Studio features for converting decimals to
 
 ### Decimal to Hex
 
-1. Navigate to [ReturnLongInteger25](Literals/LongIntegers.cs#L31) method, and return the expected value as _decimal literal_.
+1. Navigate to [ReturnLongInteger25](Integers/LongIntegers.cs#L31) method, and return the expected value as _decimal literal_.
 
 ```cs
 public static long ReturnLongInteger25()
@@ -16,7 +16,7 @@ public static long ReturnLongInteger25()
 }
 ```
 
-2. [Toggle a breakpoint](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints) in [ReturnLongInteger25_ReturnsLongInteger](Literals.Tests/LongIntegersTests.cs#L55) unit test.
+2. [Toggle a breakpoint](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints) in [ReturnLongInteger25_ReturnsLongInteger](Integers.Tests/LongIntegersTests.cs#L55) unit test.
 
 ![Toggle Breakpoint](images/convert-to-hex-1.png)
 
@@ -67,7 +67,7 @@ public static long ReturnLongInteger25()
 
 ### Decimal to Binary
 
-1. Navigate to [ReturnLongInteger29](Literals/LongIntegers.cs#L55) method, and return the expected value as a _decimal literal_.
+1. Navigate to [ReturnLongInteger29](Integers/LongIntegers.cs#L55) method, and return the expected value as a _decimal literal_.
 
 ```cs
 public static long ReturnLongInteger29()
@@ -76,7 +76,7 @@ public static long ReturnLongInteger29()
 }
 ```
 
-2. [Toggle a breakpoint](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints) in [ReturnLongInteger29_ReturnsLongInteger](Literals.Tests/LongIntegersTests.cs#L95) unit test.
+2. [Toggle a breakpoint](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints) in [ReturnLongInteger29_ReturnsLongInteger](Integers.Tests/LongIntegersTests.cs#L95) unit test.
 
 ![Toggle Breakpoint](images/convert-to-binary-1.png)
 

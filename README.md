@@ -144,7 +144,7 @@ public static long ReturnLongInteger29()
 
 In the [Characteristics of the integral types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types#characteristics-of-the-integral-types) table there are ".NET type" and "C# type" columns which represent a .NET data type and a C# language type _alias_.
 
-_int_ type is an alias for _System.Int32_ data type. Use the table to find .NET data types for corresponding _uint_, _long_ and _ulong_ aliases.
+_int_ type is an alias for _System.Int32_ data type. Use the table to find corresponding .NET data types for _uint_, _long_ and _ulong_ aliases.
 
 
 ## Constants
@@ -190,7 +190,7 @@ If a compiler error or warning message is not clear, [review errors details](htt
 1. Rebuild the solution.
 1. Fix all compiler warnings and errors.
 1. Run all unit tests, make sure all unit tests completed successfully.
-1. Review all changes, make sure the only code files (.cs) in Literals project have changes. No changes in project files (.csproj) or in Literals.Tests project.
+1. Review all changes, make sure the only code files (.cs) in Integers project have changes. No changes in project files (.csproj) or in Integers.Tests project.
 1. Stage your changes, and create a commit.
 1. Push your changes to remote repository.
 
