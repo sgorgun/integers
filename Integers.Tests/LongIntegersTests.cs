@@ -1,6 +1,4 @@
-﻿#pragma warning disable CA1707
-
-namespace Literals.Tests
+﻿namespace Literals.Tests
 {
     [TestFixture]
     public class LongIntegersTests

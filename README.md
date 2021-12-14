@@ -140,6 +140,43 @@ public static long ReturnLongInteger29()
 }
 ```
 
+## Type Aliases
+
+In the [Characteristics of the integral types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types#characteristics-of-the-integral-types) table there are ".NET type" and "C# type" columns which represent a .NET data type and a C# language type _alias_.
+
+_int_ type is an alias for _System.Int32_ data type. Use the table to find .NET data types for corresponding _uint_, _long_ and _ulong_ aliases.
+
+
+## Constants
+
+Read [Constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants) article, open [Consts.cs](Literals/Consts.cs) file, and implement all methods using the information from the table below.
+
+| Method Name                       | Data Type | Value    |
+|-----------------------------------|-----------|----------|
+| ReturnLargestInteger              | int       | largest  |
+| ReturnSmallestInteger             | int       | smallest |
+| ReturnLargestUnsignedInteger      | uint      | largest  |
+| ReturnSmallestUnsignedInteger     | uint      | smallest |
+| ReturnLargestLongInteger          | long      | largest  |
+| ReturnSmallestLongInteger         | long      | smallest |
+| ReturnLargestUnsignedLongInteger  | ulong     | largest  |
+| ReturnSmallestUnsignedLongInteger | ulong     | smallest |
+
+Integer data types contains constants that represent the largest and smallest possible values. Return the relevant constant. You may find a list of type constants in a type documentation (links are in "See also" section).
+
+Return [Int32.MaxValue](https://docs.microsoft.com/en-us/dotnet/api/system.int32.maxvalue) constant value in the [ReturnLargestInteger](Literals/Consts.cs#L5) method.
+
+```cs
+public static int ReturnLargestInteger()
+{
+    return int.MaxValue;
+}
+```
+
+You can navigate to the constant definiton with _Go To Definition_ menu item to see the actual constant value.
+
+![Go To Definition](images/go-to-definition.png)
+
 
 ## Fix Compiler Issues
 
@@ -164,6 +201,10 @@ If a compiler error or warning message is not clear, [review errors details](htt
   * [Integral numeric types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
   * [return](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/return)
   * [throw](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/throw)
+* C# Programming Guide
+  * [Constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants)
 * .NET API
-  * [Int32 Struct](https://docs.microsoft.com/en-us/dotnet/api/system.int32) 
+  * [Int32 Struct](https://docs.microsoft.com/en-us/dotnet/api/system.int32)
+  * [UInt32 Struct](https://docs.microsoft.com/en-us/dotnet/api/system.uint32)
   * [Int64 Struct](https://docs.microsoft.com/en-us/dotnet/api/system.int64)
+  * [UInt64 Struct](https://docs.microsoft.com/en-us/dotnet/api/system.uint64)
