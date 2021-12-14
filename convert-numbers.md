@@ -16,7 +16,7 @@ public static long ReturnLongInteger25()
 }
 ```
 
-2. [Toggle a breakpoint](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints) in [ReturnLongInteger25_ReturnsLongInteger](Integers.Tests/LongIntegersTests.cs#L55) unit test.
+2. [Toggle a breakpoint](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints) in [ReturnLongInteger25_ReturnsLongInteger](Integers.Tests/LongIntegersTests.cs#L53) unit test.
 
 ![Toggle Breakpoint](images/convert-to-hex-1.png)
 
@@ -76,7 +76,7 @@ public static long ReturnLongInteger29()
 }
 ```
 
-2. [Toggle a breakpoint](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints) in [ReturnLongInteger29_ReturnsLongInteger](Integers.Tests/LongIntegersTests.cs#L95) unit test.
+2. [Toggle a breakpoint](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints) in [ReturnLongInteger29_ReturnsLongInteger](Integers.Tests/LongIntegersTests.cs#L93) unit test.
 
 ![Toggle Breakpoint](images/convert-to-binary-1.png)
 
