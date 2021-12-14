@@ -2,7 +2,7 @@
 
 A beginner level task for practicing integer numbers.
 
-Estimated time to complete the task - 2h.
+Estimated time to complete the task - 1h.
 
 The task requires .NET 6 SDK.
 
@@ -21,7 +21,7 @@ Read [Integral numeric types](https://docs.microsoft.com/en-us/dotnet/csharp/lan
 
 #### _int_ and _uint_ data types
 
-Open [Integers.cs](Literals/Integers.cs) file, and implement all methods using the information from the table below.
+Open [Integers.cs](Integers/Integers.cs) file, and implement all methods using the information from the table below.
 
 | Method Name      | Number         | Literal Type | Suffix |
 |------------------|----------------|--------------|--------|
@@ -34,7 +34,7 @@ Open [Integers.cs](Literals/Integers.cs) file, and implement all methods using t
 | ReturnInteger17  | 3,2767         | Decimal      | u      |
 | ReturnInteger18  | 2,147,483,647  | Decimal      | u      |
 
-Start with the first method - [ReturnInteger11](Literals/Integers.cs#L7):
+Start with the first method - [ReturnInteger11](Integers/Integers.cs#L7):
 
 ```cs
 public static int ReturnInteger11()
@@ -92,7 +92,7 @@ In your own code you can often skip these suffixes, because the compiler will un
 
 #### _long_ and _ulong_ data types
 
-Open [LongIntegers.cs](Literals/LongIntegers.cs) file, and implement all methods using the information from the table below.
+Open [LongIntegers.cs](Integers/LongIntegers.cs) file, and implement all methods using the information from the table below.
 
 | Method Name          | Number                     | Literal Type | Suffix |
 |----------------------|----------------------------|--------------|--------|
@@ -149,7 +149,7 @@ _int_ type is an alias for _System.Int32_ data type. Use the table to find .NET 
 
 ## Constants
 
-Read [Constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants) article, open [Consts.cs](Literals/Consts.cs) file, and implement all methods using the information from the table below.
+Read [Constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants) article, open [Consts.cs](Integers/Consts.cs) file, and implement all methods using the information from the table below.
 
 | Method Name                       | Data Type | Value    |
 |-----------------------------------|-----------|----------|
@@ -164,7 +164,7 @@ Read [Constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guid
 
 Integer data types contains constants that represent the largest and smallest possible values. Return the relevant constant. You may find a list of type constants in a type documentation (links are in "See also" section).
 
-Return [Int32.MaxValue](https://docs.microsoft.com/en-us/dotnet/api/system.int32.maxvalue) constant value in the [ReturnLargestInteger](Literals/Consts.cs#L5) method.
+Return [Int32.MaxValue](https://docs.microsoft.com/en-us/dotnet/api/system.int32.maxvalue) constant value in the [ReturnLargestInteger](Integers/Consts.cs#L5) method.
 
 ```cs
 public static int ReturnLargestInteger()
@@ -173,7 +173,7 @@ public static int ReturnLargestInteger()
 }
 ```
 
-You can navigate to the constant definiton with _Go To Definition_ menu item to see the actual constant value.
+You can navigate to the constant definiton with [Go To Definition](https://docs.microsoft.com/en-us/visualstudio/ide/go-to-and-peek-definition) menu item to see the actual constant value.
 
 ![Go To Definition](images/go-to-definition.png)
 
