@@ -58,9 +58,9 @@ namespace Literals
             throw new NotImplementedException();
         }
 
-        public static ulong ReturnLongInteger210()
+        public static long ReturnLongInteger210()
         {
-            // TODO #2-10. Return "13,645,102,583,813,967,509" binary literal.
+            // TODO #2-10. Return "1,645,102,583,813,967,509" binary literal.
             throw new NotImplementedException();
         }
 
@@ -70,9 +70,9 @@ namespace Literals
             throw new NotImplementedException();
         }
 
-        public static ulong ReturnLongInteger212()
+        public static long ReturnLongInteger212()
         {
-            // TODO #2-12. Return "18,446,744,073,709,551,615" binary literal.
+            // TODO #2-12. Return "8,446,744,073,709,551,615" binary literal.
             throw new NotImplementedException();
         }
     }

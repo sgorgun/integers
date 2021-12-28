@@ -99,15 +99,15 @@ Open [LongIntegers.cs](Integers/LongIntegers.cs) file, and implement all methods
 | ReturnLongInteger21  | 4,956,185,095,298,947,214  | Decimal      | L      |
 | ReturnLongInteger22  | -1,280,010,762,458,239,942 | Decimal      | L      |
 | ReturnLongInteger23  | -945,783,496,234,828,465   | Decimal      | L      |
-| ReturnLongInteger24  | 16,269,823,234,523,742,845 | Decimal      | L      |
+| ReturnLongInteger24  | 16,269,823,234,523,742,845 | Decimal      | uL     |
 | ReturnLongInteger25  | 9,223,372,036,854,775,807  | Hexadecimal  | L      |
 | ReturnLongInteger26  | 773,738,404,492,802,748    | Hexadecimal  | L      |
-| ReturnLongInteger27  | 17,977,307,477,258,691,517 | Hexadecimal  | L      |
+| ReturnLongInteger27  | 17,977,307,477,258,691,517 | Hexadecimal  | uL     |
 | ReturnLongInteger28  | 14,193,065,825,095,688,383 | Hexadecimal  | uL     |
 | ReturnLongInteger29  | 4,100,761,908,933,204,629  | Binary       | L      |
-| ReturnLongInteger210 | 13,645,102,583,813,967,509 | Binary       | uL     |
+| ReturnLongInteger210 | 1,645,102,583,813,967,509  | Binary       | L      |
 | ReturnLongInteger211 | 6,148,914,691,236,517,205  | Binary       | L      |
-| ReturnLongInteger212 | 18,446,744,073,709,551,615 | Binary       | uL     |
+| ReturnLongInteger212 | 8,446,744,073,709,551,615  | Binary       | L      |
 
 Use **L** suffix to specify that a number literal is a _long integer_:
 

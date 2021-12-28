@@ -97,10 +97,10 @@
         public void ReturnLongInteger210_ReturnsLongInteger()
         {
             // Act
-            ulong result = LongIntegers.ReturnLongInteger210();
+            long result = LongIntegers.ReturnLongInteger210();
 
             // Assert
-            Assert.AreEqual(13_645_102_583_813_967_509uL, result);
+            Assert.AreEqual(1_645_102_583_813_967_509L, result);
         }
 
         [Test]
@@ -117,10 +117,10 @@
         public void ReturnLongInteger212_ReturnsLongInteger()
         {
             // Act
-            ulong result = LongIntegers.ReturnLongInteger212();
+            long result = LongIntegers.ReturnLongInteger212();
 
             // Assert
-            Assert.AreEqual(18_446_744_073_709_551_615uL, result);
+            Assert.AreEqual(8_446_744_073_709_551_615L, result);
         }
     }
 }
