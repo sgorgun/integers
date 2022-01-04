@@ -4,24 +4,24 @@ A beginner level task for practicing integer numbers.
 
 Estimated time to complete the task - 1h.
 
-The task requires .NET 6 SDK.
+The task requires .NET 6 SDK installed.
 
 
 ## Task Description
 
 The task has five sections with small sub-tasks in the code files.
 
-Read [Built-in value types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types#built-in-value-types) section.
+Read the [Built-in value types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types#built-in-value-types) section.
 
 
 ### Integer Literals
 
-Read [Integral numeric types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types) article.
+Read the [Integral numeric types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types) article.
 
 
 #### _int_ and _uint_ data types
 
-Open [Integers.cs](Integers/Integers.cs) file, and implement all methods using the information from the table below.
+Open the [Integers.cs](Integers/Integers.cs) file, and implement all methods using the information from the table below.
 
 | Method Name      | Number         | Literal Type | Suffix |
 |------------------|----------------|--------------|--------|
@@ -46,7 +46,7 @@ public static int ReturnInteger11()
 
 The [throw](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/throw) keyword signals the occurence of an exception during program execution. In this method _throw new NotImplementedException()_ code signals that the method is not implemented.
 
-Replace the _throw new NotImplementedException()_ code with _return 0_ statement:
+Replace the _throw new NotImplementedException()_ code with the _return 0_ statement:
 
 ```cs
 public static int ReturnInteger11()
@@ -67,9 +67,9 @@ public static int ReturnInteger11()
 }
 ```
 
-Sonar will raise an [#1135 issue](https://rules.sonarsource.com/csharp/RSPEC-1135) for each TODO comment during a task check.
+Sonar will raise an [#1135 issue](https://rules.sonarsource.com/csharp/RSPEC-1135) for each TODO comment during the task check.
 
-The [digit separator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types#integer-literals) may improve the readability of large numeric literals. Use the digit separator symbol in this task for number literals with *more then 3 digits*.
+The [digit separator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types#integer-literals) may improve the readability of large numeric literals. Use the digit separator symbol in this task for number literals with *more than 3 digits*.
 
 ```cs
 public static int ReturnInteger14()
@@ -78,7 +78,7 @@ public static int ReturnInteger14()
 }
 ```
 
-To specify the number literal is _unsigned_ use **u** or **U** suffixes:
+To specify the number literal is _unsigned_ use the **u** or **U** suffixes:
 
 ```cs
 public static uint ReturnInteger16()
@@ -87,12 +87,12 @@ public static uint ReturnInteger16()
 }
 ```
 
-In your own code you can often skip these suffixes, because the compiler will understand that the literal is unsigned. But for the sake of learning we ask you to add suffixes in this task.
+In your own code you can often skip these suffixes, because the compiler understands that the literal is unsigned. But for the sake of learning we ask you to add suffixes in this task.
 
 
 #### _long_ and _ulong_ data types
 
-Open [LongIntegers.cs](Integers/LongIntegers.cs) file, and implement all methods using the information from the table below.
+Open the [LongIntegers.cs](Integers/LongIntegers.cs) file, and implement all methods using the information from the table below.
 
 | Method Name          | Number                     | Literal Type | Suffix |
 |----------------------|----------------------------|--------------|--------|
@@ -109,7 +109,7 @@ Open [LongIntegers.cs](Integers/LongIntegers.cs) file, and implement all methods
 | ReturnLongInteger211 | 6,148,914,691,236,517,205  | Binary       | L      |
 | ReturnLongInteger212 | 8,446,744,073,709,551,615  | Binary       | L      |
 
-Use **L** suffix to specify that a number literal is a _long integer_:
+Use the **L** suffix to specify that a number literal is a _long integer_:
 
 ```cs
 public static long ReturnLongInteger21()
@@ -118,11 +118,11 @@ public static long ReturnLongInteger21()
 }
 ```
 
-If you will put **l** suffix you will get [CS0078 warning](https://docs.microsoft.com/en-us/dotnet/csharp/misc/cs0078).
+If you put **l** suffix you will get [CS0078 warning](https://docs.microsoft.com/en-us/dotnet/csharp/misc/cs0078).
 
 ![CS0078 warning](images/cs0078.png)
 
-In methods with _Hexadecimal_ literal type use [hexadecimal literals](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types#integer-literals). See [Convert Numbers](convert-numbers.md) tutorial for more information on how to convert decimal numbers.
+In methods with the _Hexadecimal_ literal type use [hexadecimal literals](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types#integer-literals). See the [Convert Numbers](convert-numbers.md) tutorial for more information on how to convert decimal numbers.
 
 ```cs
 public static long ReturnLongInteger25()
@@ -131,7 +131,7 @@ public static long ReturnLongInteger25()
 }
 ```
 
-In methods with _Binary_ literal types use [binary literals](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types#integer-literals). See [Convert Numbers](convert-numbers.md) tutorial for more information on how to convert decimal numbers.
+In methods with the _Binary_ literal type use [binary literals](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types#integer-literals). See the [Convert Numbers](convert-numbers.md) tutorial for more information on how to convert decimal numbers.
 
 ```cs
 public static long ReturnLongInteger29()
@@ -142,14 +142,14 @@ public static long ReturnLongInteger29()
 
 ## Type Aliases
 
-In the [Characteristics of the integral types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types#characteristics-of-the-integral-types) table there are ".NET type" and "C# type" columns which represent a .NET data type and a C# language type _alias_.
+In the [Characteristics of the integral types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types#characteristics-of-the-integral-types) table there are ".NET type" and "C# type" columns which contain the .NET data types and their respective C# language type _alias_.
 
-_int_ type is an alias for _System.Int32_ data type. Use the table to find corresponding .NET data types for _uint_, _long_ and _ulong_ aliases.
+The _int_ type is an alias for _System.Int32_ data type. Use the table to find corresponding .NET data types for _uint_, _long_ and _ulong_ aliases.
 
 
 ## Constants
 
-Read [Constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants) article, open [Consts.cs](Integers/Consts.cs) file, and implement all methods using the information from the table below.
+Read the [Constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants) article, open the [Consts.cs](Integers/Consts.cs) file, and implement all methods using the information from the table below.
 
 | Method Name                       | Data Type | Value    |
 |-----------------------------------|-----------|----------|
@@ -162,9 +162,9 @@ Read [Constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guid
 | ReturnLargestUnsignedLongInteger  | ulong     | largest  |
 | ReturnSmallestUnsignedLongInteger | ulong     | smallest |
 
-Integer data types contains constants that represent the largest and smallest possible values. Return the relevant constant. You may find a list of type constants in a type documentation (links are in "See also" section).
+Integer data types contain constants that represent the largest and the smallest possible values. Return the respective constant. You may find the list of type constants in the type documentation (links are in "See also" section).
 
-Return [Int32.MaxValue](https://docs.microsoft.com/en-us/dotnet/api/system.int32.maxvalue) constant value in the [ReturnLargestInteger](Integers/Consts.cs#L5) method.
+Return the [Int32.MaxValue](https://docs.microsoft.com/en-us/dotnet/api/system.int32.maxvalue) constant value in the [ReturnLargestInteger](Integers/Consts.cs#L5) method.
 
 ```cs
 public static int ReturnLargestInteger()
@@ -173,7 +173,7 @@ public static int ReturnLargestInteger()
 }
 ```
 
-You can navigate to the constant definiton with [Go To Definition](https://docs.microsoft.com/en-us/visualstudio/ide/go-to-and-peek-definition) menu item to see the actual constant value.
+You can navigate to the constant definition via the [Go To Definition](https://docs.microsoft.com/en-us/visualstudio/ide/go-to-and-peek-definition) menu item to see the actual constant value.
 
 ![Go To Definition](images/go-to-definition.png)
 
