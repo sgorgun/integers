@@ -20,7 +20,7 @@ public static long ReturnLongInteger25()
 
 ![Toggle Breakpoint](images/convert-to-hex-1.png)
 
-3. Debug the unit test.
+3. Debug a unit test.
 
 ![Debug Tests](images/convert-to-hex-2.png)
 
@@ -32,7 +32,7 @@ If you don't see this menu item in the _Debug_ menu, your Visual Studio is not i
 
 ![No Watch Menu Item](images/convert-to-hex-3-no-watch-menu.png)
 
-Start the debugging of the unit test first.
+Toggle a breakpoint and start the debugging of an unit test first.
 
 5. Add _result_ variable to the watch list.
 
