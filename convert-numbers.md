@@ -28,6 +28,10 @@ public static long ReturnLongInteger25()
 
 ![Watch Window](images/convert-to-hex-3.png)
 
+If you don't see this menu item in the _Debug_ menu, your Visual Studio is not in the [debug mode](https://docs.microsoft.com/en-us/visualstudio/debugger).
+
+![No Watch Menu Item](convert-to-hex-3-no-watch-menu.png)
+
 5. Add _result_ variable to the watch list.
 
 ![Add Variable](images/convert-to-hex-4.png)
