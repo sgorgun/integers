@@ -30,7 +30,9 @@ public static long ReturnLongInteger25()
 
 If you don't see this menu item in the _Debug_ menu, your Visual Studio is not in the [debug mode](https://docs.microsoft.com/en-us/visualstudio/debugger).
 
-![No Watch Menu Item](convert-to-hex-3-no-watch-menu.png)
+![No Watch Menu Item](images/convert-to-hex-3-no-watch-menu.png)
+
+Start the debugging of the unit test first.
 
 5. Add _result_ variable to the watch list.
 
