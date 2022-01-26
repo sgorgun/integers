@@ -2,7 +2,7 @@
 
 A beginner level task for practicing integer numbers.
 
-Estimated time to complete the task - 1h.
+Estimated time to complete the task - 1.5h.
 
 The task requires .NET 6 SDK installed.
 
