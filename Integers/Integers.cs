@@ -42,7 +42,7 @@ namespace Literals
 
         public static uint ReturnInteger17()
         {
-            // TODO #1-7. Return "3,2767" literal.
+            // TODO #1-7. Return "32,767" literal.
             throw new NotImplementedException();
         }
 

@@ -31,7 +31,7 @@ Open the [Integers.cs](Integers/Integers.cs) file, and implement all methods usi
 | ReturnInteger14  | 2,147,483,647  | Decimal      |        |
 | ReturnInteger15  | -2,147,483,648 | Decimal      |        |
 | ReturnInteger16  | 1              | Decimal      | u      |
-| ReturnInteger17  | 3,2767         | Decimal      | u      |
+| ReturnInteger17  | 32,767         | Decimal      | u      |
 | ReturnInteger18  | 2,147,483,647  | Decimal      | u      |
 
 Start with the first method - [ReturnInteger11](Integers/Integers.cs#L7):
